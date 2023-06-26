@@ -81,3 +81,38 @@ th,td{
 #deleteall{
     margin: 20px 0;
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+    .crud {
+      width: 60%;
+    }
+    input {
+      width: 50%;
+    }
+    .price input {
+      width: 30%;
+    }
+  }
+
+
+
+
+@media screen and (max-width: 600px) {
+    .crud {
+      width: 100%;
+    }
+    input {
+      width: 100%;
+    }
+    .price input {
+      width: 50%;
+    }
+    #total {
+      display: none;
+    }
+    .btnsearch {
+      flex-direction: column;
+    }
+    .btnsearch button {
+      width: 100%;
+    }
+  }
